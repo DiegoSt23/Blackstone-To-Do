@@ -1,0 +1,19 @@
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.link {
+  color: #2d79db;
+  text-decoration: none;
+}
+.delete-icon {
+  font-size: 1.3rem;
+  color: #a1a1a1;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.delete-icon:hover {
+  color: red;
+  transition: 0.5s;
+}
