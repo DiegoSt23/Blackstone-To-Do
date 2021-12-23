@@ -4,7 +4,6 @@ form {
   flex-direction: column;
 }
 .link {
-  color: #2d79db;
   text-decoration: none;
 }
 .delete-icon {
