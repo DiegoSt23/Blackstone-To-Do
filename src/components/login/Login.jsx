@@ -56,7 +56,7 @@ const Login = () => {
         }}
         p={{ padding: 30 }}
       >
-        <Typography variant="h2" color="#2d79db">
+        <Typography variant="h2" color="primary">
           Login
         </Typography>
         <Typography variant="p" color="#a1a1a1">

@@ -47,7 +47,7 @@ const Form = () => {
       }}
       p={{ padding: 30 }}
     >
-      <Typography variant="h4" color="#2d79db">
+      <Typography variant="h4" color="primary">
         Create New Task
       </Typography>
       <Typography variant="p" color="#a1a1a1">
@@ -93,7 +93,9 @@ const Form = () => {
           }}
         >
           <NavLink to="/tasks" className="link">
-            <Typography variant="p">MY TASKS({totalTasks})</Typography>
+            <Typography variant="p" color="primary">
+              MY TASKS({totalTasks})
+            </Typography>
           </NavLink>
         </Box>
       </form>

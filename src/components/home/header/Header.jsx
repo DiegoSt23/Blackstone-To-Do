@@ -23,7 +23,7 @@ const Header = () => {
       }}
       p={{ padding: 10 }}
     >
-      <Typography variant="h5" color="#2d79db">
+      <Typography variant="h5" color="primary">
         TodoApp
       </Typography>
       <Button variant="outlined" onClick={handleLogout}>

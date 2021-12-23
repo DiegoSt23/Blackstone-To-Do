@@ -37,7 +37,7 @@ const Tasks = () => {
       }}
       p={{ padding: 30 }}
     >
-      <Typography variant="h4" color="#2d79db">
+      <Typography variant="h4" color="primary">
         My Tasks
       </Typography>
       {tasks.length > 0 ? (
@@ -70,7 +70,9 @@ const Tasks = () => {
         }}
       >
         <NavLink to="/" className="link">
-          <Typography variant="p">CREATE NEW TASK</Typography>
+          <Typography variant="p" color="primary">
+            CREATE NEW TASK
+          </Typography>
         </NavLink>
       </Box>
     </Box>
