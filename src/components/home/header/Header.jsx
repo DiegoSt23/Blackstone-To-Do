@@ -17,7 +17,7 @@ const Header = () => {
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
-        bgcolor: "#f1f1f1",
+        bgcolor: "#191a1f",
         zIndex: 1,
         position: "fixed",
       }}

@@ -19,7 +19,7 @@ const Form = () => {
 
   const validationSchema = yup.object({
     task: yup.string().required("Task is required"),
-    dueDate: yup.string().required("Due Date is required"),
+    dueDate: yup.string().required("Due date is required"),
   });
 
   const formik = useFormik({
@@ -41,7 +41,7 @@ const Form = () => {
         flexDirection: "column",
         borderRadius: 1,
         boxShadow: 5,
-        bgcolor: "white",
+        bgcolor: "#1f2025",
         mt: 15,
         mb: 5,
       }}

@@ -12,7 +12,6 @@ import { Box, Typography } from "@mui/material";
 
 const Tasks = () => {
   const { tasks } = useSelector((state) => state.tasks);
-  console.log(tasks);
 
   const tasksList = tasks?.map((item, index) => (
     <SingleTask
@@ -32,7 +31,7 @@ const Tasks = () => {
         flexDirection: "column",
         borderRadius: 1,
         boxShadow: 5,
-        bgcolor: "white",
+        bgcolor: "#1f2025",
         mt: 15,
         mb: 5,
       }}

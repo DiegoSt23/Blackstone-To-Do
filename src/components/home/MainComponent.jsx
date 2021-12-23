@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./header/Header";
 import Form from "./form/Form";
 import Tasks from "./tasks/Tasks";
+import Error from "./error/Error";
 
 // MUI
 import { Container } from "@mui/material";
@@ -27,6 +28,7 @@ const MainComponent = () => {
           <Routes>
             <Route path="/" element={<Form />} />
             <Route path="/tasks" element={<Tasks />} />
+            <Route path="*" element={<Error />} />
           </Routes>
         </Container>
       </Router>

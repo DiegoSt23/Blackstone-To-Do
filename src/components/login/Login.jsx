@@ -51,7 +51,7 @@ const Login = () => {
           display: "flex",
           flexDirection: "column",
           borderRadius: 1,
-          bgcolor: "white",
+          bgcolor: "#1f2025",
           boxShadow: 5,
         }}
         p={{ padding: 30 }}

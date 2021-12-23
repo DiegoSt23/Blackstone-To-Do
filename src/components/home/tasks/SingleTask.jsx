@@ -56,11 +56,11 @@ const SingleTask = ({ task, dueDate, isCompleted, index }) => {
             width: 4 / 5,
           }}
         >
-          <Typography variant="h6" color="#646464">
+          <Typography variant="h6" color="#a1a1a1">
             {task}
           </Typography>
           {!isCompleted && (
-            <Typography variant="p" color="#a1a1a1">
+            <Typography variant="p" color="#646464">
               Due date: {dueDateFormatter()}
             </Typography>
           )}
